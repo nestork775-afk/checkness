@@ -10,7 +10,12 @@ targets:
       - ContentView.swift
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: net.whatsapp.WhatsApp.app
+        PRODUCT_BUNDLE_IDENTIFIER: com.nestor.netcheck
+        PRODUCT_NAME: NetCheckApp
+        GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""
