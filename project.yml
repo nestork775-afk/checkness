@@ -10,7 +10,7 @@ targets:
       - ContentView.swift
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.nestor.netcheck
+        PRODUCT_BUNDLE_IDENTIFIER: cnet.whatsapp.WhatsApp.app
         PRODUCT_NAME: NetCheckApp
         GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
